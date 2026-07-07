@@ -10,7 +10,7 @@ class BatteryAnalyzer:
 
     def __init__(self, root):
         self.root = root
-        self.root.title("SMBus Battery Analyzer - Expert Diagnostic PRO")
+        self.root.title("SMBus Battery Analyzer - Alpha Hardware 2026")
         self.root.geometry("1200x850")
         self.root.minsize(1000, 700)
         self.root.configure(bg="#1e1e1e")
