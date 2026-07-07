@@ -1,0 +1,17 @@
+TERMOS DE LICENÇA E CONDIÇÕES DE USO
+PROJETO: SMBus Battery Analyzer PRO+
+
+Copyright (c) 2026. Todos os direitos reservados ao criador do repositório.
+
+Pelo presente instrumento, concede-se permissão a qualquer pessoa que obtenha uma cópia deste software e arquivos de documentação associados para fins estritamente ACADÊMICOS, DIDÁTICOS E DE ESTUDO PARTICULAR, sujeito às seguintes condições:
+
+1. PROIBIÇÃO COMERCIAL EXPLICITA:
+É expressamente PROIBIDA a comercialização, venda, sublicenciamento, locação, distribuição paga ou exploração financeira direta/indireta de qualquer parte deste código-fonte (seja o firmware do Arduino ou a interface gráfica em Python), bem como de produtos ou equipamentos físicos derivados que utilizem este software incorporado.
+
+2. PERMISSÃO DE USO PARTICULAR E CÓPIA:
+É permitido clonar, modificar, adaptar e executar o software única e exclusivamente para uso privado, hobbistas, engenharia reversa para aprendizado pessoal ou aplicação em laboratórios de reparação próprios, desde que não haja cobrança ou comercialização do software em si.
+
+3. ATRIBUIÇÃO:
+Todas as cópias ou partes substanciais deste software devem incluir este aviso de direitos autorais e termos de licença originais.
+
+O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA. EM NENHUM CASO OS AUTORES OU DETENTORES DE DIREITOS AUTORAIS SERÃO RESPONSÁVEIS POR QUALQUER RECLAMAÇÃO, DANOS OU OUTRA RESPONSABILIDADE decorrente do uso ou de outras negociações no software.
