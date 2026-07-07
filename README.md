@@ -23,8 +23,8 @@ Este projeto é um analisador e diagnosticador de baterias inteligentes de noteb
 
 O projeto é composto por dois componentes principais que trabalham de forma integrada:
 
-1. **Firmware do Arduino (`baterryread.ino.ino`):** Atua como uma ponte de hardware. Ele interroga os registradores hexadecimais da bateria usando a biblioteca `SoftwareWire` (linhas SDA/SCL emuladas), trata inteiros com sinal (corrente negativa) e empacota todos os dados em uma string **JSON atômica** enviada a 115200 baud pela porta serial.
-2. **Aplicação Desktop Python (`app0.py`):** Captura o buffer serial de forma assíncrona, faz o parse do JSON e atualiza os cartões de métricas da interface gráfica, gerenciando localmente as conversões matemáticas (como *Decikelvin para Celsius*).
+1. **Firmware do Arduino (`finalbtty.ino`):** Atua como uma ponte de hardware. Ele interroga os registradores hexadecimais da bateria usando a biblioteca `SoftwareWire` (linhas SDA/SCL emuladas), trata inteiros com sinal (corrente negativa) e empacota todos os dados em uma string **JSON atômica** enviada a 115200 baud pela porta serial.
+2. **Aplicação Desktop Python (`app2.py`):** Captura o buffer serial de forma assíncrona, faz o parse do JSON e atualiza os cartões de métricas da interface gráfica, gerenciando localmente as conversões matemáticas (como *Decikelvin para Celsius*).
 
 ---
 
@@ -46,7 +46,7 @@ Para realizar a análise em bancada, faça as conexões entre o Arduino e o cone
 ## 💻 Instalação e Execução
 
 ### 1. Gravação do Arduino
-1. Abra o arquivo `baterryread.ino.ino` na Arduino IDE.
+1. Abra o arquivo `finalbtty.ino` na Arduino IDE.
 2. Certifique-se de ter a biblioteca `SoftwareWire` instalada.
 3. Selecione a sua placa (Uno, Nano, Mega) e compile/grave o código.
 
